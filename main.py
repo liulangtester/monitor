@@ -4,6 +4,12 @@ import datetime
 from colorama import init, Fore, Style
 
 
+"""
+1、通过第三方服务Server酱发送微信消息，可正常使用
+2、免费额度，从注册开始只有7天，且一天智能发送五条消息
+3、第三方服务Server酱：https://sct.ftqq.com/after
+"""
+
 def check_schedule(num):
     try:
         url = 'https://wxmpro.jctopinfo.com/TKService/GetSchedule'

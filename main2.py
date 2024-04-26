@@ -1,5 +1,9 @@
 from wechaty import Wechaty, Message
 
+"""
+微信机器人 还未调试通
+"""
+
 async def on_message(msg: Message):
     """
     Message handler for the bot
